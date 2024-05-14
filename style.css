@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    background-color: rgb(137, 61, 104);
+}
+.fs-4 {
+    color: antiquewhite;
+}
+.btn{
+    color: antiquewhite;
+}
+.lead {
+    color: #fff;
+}
+@media (min-width: 320px) and (max-width: 1440px) {
+    body {
+        background-color: rgb(137, 61, 104) ;
+    }
+}

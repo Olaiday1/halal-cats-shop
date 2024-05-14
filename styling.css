@@ -1,0 +1,21 @@
+body {
+    background-color: #12252d;
+    color: azure;
+    
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: antiquewhite;
+}
+.img-container {
+    border-color:  solid black;
+}
+.head {
+    color: antiquewhite;
+}
+.btn-primary:hover {
+    background-color: #008CBA;
+    color: white;
+  }

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop now</title>
+    <style>
+      body {
+        background-color: rgb(182, 206, 218);
+        color: black;
+        padding: 30px;
+      }
+      .col-md-7-col-lg-8 {
+        line-height: 30px;
+      }
+      .list-group-item-d-flex-justify-content-between-lh-sm {
+        font-size: larger;
+      }
+      .list-group-item-d-flex-justify-content-between {
+        font-size: large;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Halal Cats shop</h1>
+    <h2>We are happy to take your orders. Kindly fill the forms below;</h2>
+    <div class="container">
+      <div class="col-md-7-col-lg-8">
+        <form class="needs-validation" novalidate="">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="firstName"
+                placeholder=""
+                value=""
+                required=""
+              />
+              <div class="invalid-feedback">Valid first name is required.</div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label"
+                >Email:
+                <span class="text-body-secondary">(Optional)</span></label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="you@example.com"
+              />
+              <div class="invalid-feedback">
+                Please enter a valid email address for delivery updates.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Address:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="1234 Main St"
+                required=""
+              />
+              <div class="invalid-feedback">
+                Please enter your house address.
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">State:</label>
+              <select class="form-select" id="state" required="">
+                <option value="">Choose...</option>
+                <option>Lagos</option>
+              </select>
+              <div class="invalid-feedback">Please provide a valid state.</div>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="save-info" />
+              <label class="form-check-label" for="save-info"
+                >Save this information for next time</label
+              >
+            </div>
+
+            <hr class="my-4" />
+
+            <h4 class="mb-3">Payment</h4>
+
+            <div class="my-3">
+              <div class="form-check">
+                <input
+                  id="credit"
+                  name="paymentMethod"
+                  type="radio"
+                  class="form-check-input"
+                  checked=""
+                  required=""
+                />
+                <label class="form-check-label" for="credit">Credit card</label>
+              </div>
+              <div class="form-check">
+                <input
+                  id="debit"
+                  name="paymentMethod"
+                  type="radio"
+                  class="form-check-input"
+                  required=""
+                />
+                <label class="form-check-label" for="credit">Transfer (0123456789 - Box bank)</label>
+                <p>
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label"
+                >Credit card number</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="cc-number"
+                placeholder=""
+                required=""
+              />
+              <div class="invalid-feedback">Credit card number is required</div>
+            </div>
+          </p>
+           
+        </form>
+      </p>
+        <hr class="my-4" />
+      </div>
+      <div class="col-md-5-col-lg-4-order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary">Your cart</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item-d-flex-justify-content-between-lh-sm">
+            <div>
+              <h6 class="my-0">Product name</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+          </li>
+          <li class="list-group-item-d-flex-justify-content-between-lh-sm">
+            <div>
+              <h6 class="my-0">Second product</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+           
+          </li>
+          <li class="list-group-item-d-flex-justify-content-between-lh-sm">
+            <div>
+              <h6 class="my-0">Third item</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+          </li>
+          <p>
+          <li class="list-group-item-d-flex-justify-content-between">
+            <span>Total (Naira)</span>
+            <strong>
+              <input
+                type="text"
+                class="form-control"
+                id="firstName"
+                placeholder=""
+                value=""
+                required=""
+              />
+            </strong>
+          </li>
+        </ul>
+      
+
+       
+      </div>
+    </div>
+    <p>
+      <button class="w-100 btn btn-primary btn-lg" type="submit">
+        Submit
+      </button>
+      </p>
+    <p>
+      <button class="btn-primary">
+      <a href="./index.html">Go back</a>
+    </button>
+    </p>
+  </body>
+</html>
